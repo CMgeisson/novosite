@@ -17,4 +17,4 @@ def login(request):
             login_django(request, user)
             return HttpResponse('Autenticado!')
         else:
-         return HttpResponse('E-mail ou senha inválidos!')     
+         return HttpResponse('E-mail ou senha inválidos!..')     
