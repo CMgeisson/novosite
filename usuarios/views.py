@@ -11,7 +11,7 @@ def login(request):
         username = request.POST.get('email')
         senha = request.POST.get('senha')
 
-        user = Authenticate(username = username, password =senha)
+        user = authenticate(username = username, password =senha)
 
         if user:
             login_django(request, user)
