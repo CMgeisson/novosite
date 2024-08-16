@@ -119,7 +119,7 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
-STATIC_DIR = [
+STATIC_DIRS = [
     os.path.join(BASE_DIR, 'static')
 ]
 
