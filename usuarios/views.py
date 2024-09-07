@@ -38,3 +38,16 @@ def cadastro (request):
 
             return HttpResponse("Usuário cadastrado com sucesso!")
     
+
+def home (request):
+    return render(request, 'usuarios/home.html')
+
+
+def lancar (request):
+    return render(request, 'usuarios/lancar.html')
+
+def alterar (request):
+    return render(request, 'usuarios/alterar.html')
+
+def visualizar (request):
+    return render(request, 'usuarios/visualizar.html')
